@@ -1,4 +1,5 @@
 ## My Python Logging Reminders  
+[![](https://tokei.rs/b1/github.com/mccright/Log4NetDemo/?category=code)](https://github.com/mccright/Log4NetDemo)  
 
 These examples are just reminders/demonstrations to help me get started on python scripts.  
 
