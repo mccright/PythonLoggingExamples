@@ -22,3 +22,7 @@ These examples are just reminders/demonstrations to help me get started on pytho
 None.  These are not modules, just little code reminders.  
 That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.  
 
+### Explore later
+
+Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
+[https://github.com/sinkingtitanic/qlogging](https://github.com/sinkingtitanic/qlogging)  
