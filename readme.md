@@ -24,5 +24,8 @@ That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.
 
 ### Explore later
 
+Try 'minilog' a minimalistic logging wrapper for Python.  
+[https://github.com/jacebrowning/minilog](https://github.com/jacebrowning/minilog)  
+
 Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
 [https://github.com/sinkingtitanic/qlogging](https://github.com/sinkingtitanic/qlogging)  
