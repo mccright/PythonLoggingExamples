@@ -22,6 +22,9 @@ These examples are just reminders/demonstrations to help me get started on pytho
 None.  These are not modules, just little code reminders.  
 That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.  
 
+### What Should You Log?   
+See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Application-Logging.md](https://github.com/mccright/rand-notes/blob/master/Application-Logging.md)  
+
 ### Explore later
 
 Try 'minilog' a minimalistic logging wrapper for Python.  
