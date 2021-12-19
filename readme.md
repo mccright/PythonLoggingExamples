@@ -33,6 +33,9 @@ Try 'minilog' a minimalistic logging wrapper for Python.
 Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
 [https://github.com/sinkingtitanic/qlogging](https://github.com/sinkingtitanic/qlogging)  
 
+* This utility approach: [https://github.com/karldoenitz/PythonUtils/tree/master/logger](https://github.com/karldoenitz/PythonUtils/tree/master/logger)  
+* Minimal approach: [https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py](https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py)  
+
 ### Additional References  
 
 "Logging in Python like a PRO" [https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/](https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/)  
