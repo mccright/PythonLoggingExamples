@@ -27,14 +27,13 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 
 ### Explore later
 
-Try 'minilog' a minimalistic logging wrapper for Python.  
+* Try 'minilog' a minimalistic logging wrapper for Python.  
 [https://github.com/jacebrowning/minilog](https://github.com/jacebrowning/minilog)  
-
-Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
+* Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
 [https://github.com/sinkingtitanic/qlogging](https://github.com/sinkingtitanic/qlogging)  
-
 * This utility approach: [https://github.com/karldoenitz/PythonUtils/tree/master/logger](https://github.com/karldoenitz/PythonUtils/tree/master/logger)  
 * Minimal approach: [https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py](https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py)  
+* If all you want is quick, easy console logging, look at [https://github.com/apparebit/konsole](https://github.com/apparebit/konsole)  
 
 ### Additional References  
 
