@@ -37,5 +37,6 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 
 ### Additional References  
 
-"Logging in Python like a PRO" [https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/](https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/)  
+* "Logging in Python like a PRO" [https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/](https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/)  
+* "The Ins and Outs of Logging in Python, Part 1" [https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html#](https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html#)  
 
