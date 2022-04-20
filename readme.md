@@ -17,7 +17,7 @@ Then log something with:
 log("INFO", __file__, f"Using important_var: {important_var}")
 ```
 
-* The standard python logging module: `trylogging/LogTestLogging.py`  
+* The standard python logging module: `[trylogging/LogTestLogging.py](https://github.com/mccright/PythonLoggingExamples/tree/main/trylogging)`  
     *Usage:*  
     `from LogTestLogging import init_logging`  
     `logger = init_logging()`  
