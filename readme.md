@@ -4,6 +4,16 @@
 These examples are just reminders/demonstrations to help me get started on python scripts.  
 
 ### Approaches  
+* The old *print* way:  
+```Python
+def log(loglevel, component, message):
+    print(f"{datetime.now(timezone('UCT'))} \
+[{loglevel}] {component}: {message}", file=sys.stderr)
+```
+    Then log something with:
+```Python
+log("INFO", __file__, f"Using important_var: {important_var}")
+```
 
 * The standard python logging module: `trylogging/LogTestLogging.py`  
     *Usage:*  
