@@ -22,7 +22,7 @@ log("INFO", __file__, f"Using important_var: {important_var}")
     `from LogTestLogging import init_logging`  
     `logger = init_logging()`  
     `logger.info('info testing message')`  
-* The loguru module -- because it was so easy to configure: `tryloguru/LogTestLoGuru.py`  
+* The loguru module -- because it was so easy to configure: [`tryloguru/LogTestLoGuru.py`](https://github.com/mccright/PythonLoggingExamples/tree/main/tryloguru)  
     *Usage:*  
     `from LogTestLoGuru import init_logging`  
     `logger = init_logging()`  
