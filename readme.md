@@ -1,7 +1,9 @@
 ## My Python Logging Reminders  
-[![](https://tokei.rs/b1/github.com/mccright/Log4NetDemo/?category=code)](https://github.com/mccright/Log4NetDemo)  
+[![](https://tokei.rs/b1/github/mccright/PythonLoggingExamples)](https://github.com/mccright/PythonLoggingExamples)  
 
-These examples are just reminders/demonstrations to help me get started on python scripts.  
+These examples are just reminders/demonstrations to help me get started on any given python script.  
+
+> For a more detailed description of Python logging refer to [the official manual](https://docs.python.org/3.10/library/logging.html#module-logging).  There is a useful diagram outlining the flow of log event information in loggers and handlers at: [https://docs.python.org/3.10/howto/logging.html#logging-flow](https://docs.python.org/3.10/howto/logging.html#logging-flow)  
 
 ### Approaches  
 * The old *print* way:  
@@ -10,7 +12,7 @@ def log(loglevel, component, message):
     print(f"{datetime.now(timezone('UCT'))} \
 [{loglevel}] {component}: {message}", file=sys.stderr)
 ```
-    Then log something with:
+Then log something with:  
 ```Python
 log("INFO", __file__, f"Using important_var: {important_var}")
 ```
