@@ -7,6 +7,8 @@ from logging.config import dictConfig
 
 def init_logging():
     logFilePath = path.basename(__file__) + '.log'
+    # If needed, put the log file in a log directory using: 
+    # logdir = os.path.dirname(os.path.abspath(sys.argv[0])) + '/log/' 
     logger = logging.getLogger(logFilePath)
     formatter = logging.Formatter(
         '%(asctime)s %(name)s:%(lineno)d [%(thread)d] %(levelname)s: %(message)s')

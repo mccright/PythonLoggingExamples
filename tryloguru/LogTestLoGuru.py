@@ -31,6 +31,8 @@ def init_logging():
     dt = datetime.datetime.utcnow()
     scriptName = os.path.basename(__file__)
     print(scriptName)
+    # If needed, put the log file in a log directory using: 
+    # logdir = os.path.dirname(os.path.abspath(sys.argv[0])) + '/log/' 
     myLog = str(scriptName) + "-{time}.log"
     config = {
         "handlers": [
