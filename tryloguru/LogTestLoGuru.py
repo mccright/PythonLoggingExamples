@@ -26,6 +26,7 @@ import os
 #   Use: "gz", "bz2", "xz", "lzma", "tar", "tar.gz", "tar.bz2", "tar.xz", or "zip".
 #
 
+
 def init_logging():
     # UTC so global logs sync.
     dt = datetime.datetime.utcnow()
@@ -36,8 +37,11 @@ def init_logging():
     myLog = str(scriptName) + "-{time}.log"
     config = {
         "handlers": [
-            {"sink": sys.stdout, "format": "{time:!UTC} - {message}", "colorize": True},
-            {"sink": str(myLog), "format": "{time:YYYY-MM-dd HH:mm:ss:SSS Z!UTC} {level} {file}:{line} - {message}", "serialize": False},
+            {"sink": sys.stdout, "format": "{time:!UTC} - {message}", \
+                "colorize": True},
+            {"sink": str(myLog), "format": \
+                "{time:YYYY-MM-dd HH:mm:ss:SSS Z!UTC} \
+                {level} {file}:{line} - {message}", "serialize": False},
         ],
         "extra": {"user": "someone"}
     }
@@ -77,7 +81,7 @@ if __name__ == '__main__':
         logger.debug(
             "Encountered {0} when trying to perform calculation.".format(ex))
 
-    logger.info("Ended");
+    logger.info("Ended")
 
     logger.debug('debug testing message')
     logger.info('info testing message')
