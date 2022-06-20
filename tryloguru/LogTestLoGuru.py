@@ -37,9 +37,9 @@ def init_logging():
     myLog = str(scriptName) + "-{time}.log"
     config = {
         "handlers": [
-            {"sink": sys.stdout, "format": "{time:!UTC} - {message}", \
+            {"sink": sys.stdout, "format": "{time:!UTC} - {message}", 
                 "colorize": True},
-            {"sink": str(myLog), "format": \
+            {"sink": str(myLog), "format": 
                 "{time:YYYY-MM-dd HH:mm:ss:SSS Z!UTC} \
                 {level} {file}:{line} - {message}", "serialize": False},
         ],
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     init_logging()
     # Begin some logging tests
     # First log an Exception
-    logger.info("Started");
+    logger.info("Started")
     try:
         x = 612
         y = 0

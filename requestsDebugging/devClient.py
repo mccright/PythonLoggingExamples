@@ -14,12 +14,14 @@ logger = logging.getLogger(__name__)
  
 # Turn on global debugging for the HTTPConnection class
 http.client.HTTPConnection.debuglevel = 1
- 
+
+
 # Redirect print to the debug logger
 def debugLog(*args):
     logger.debug(" ".join(args))
+
+
 http.client.print = debugLog
- 
  
 # Assumes you have something listening for tests
 url = "http://localhost:8080/test"
