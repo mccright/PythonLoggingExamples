@@ -15,7 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      # From: https://github.com/marketplace/actions/setup-python
       - uses: actions/setup-python@v4
+        with:
+            python-version: '3.x' # Version range or exact version of a Python version
+            architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       - run: pip install --upgrade pip wheel
       - run: pip install bandit black codespell flake8 flake8-bugbear
                          flake8-comprehensions isort mypy pytest pyupgrade safety
