@@ -5,13 +5,15 @@ from time import gmtime
 # Need this to configure the handlers
 from logging.config import dictConfig
 
+
 def init_logging():
     logFilePath = path.basename(__file__) + '.log'
     # If needed, put the log file in a log directory using: 
     # logdir = os.path.dirname(os.path.abspath(sys.argv[0])) + '/log/' 
     logger = logging.getLogger(logFilePath)
     formatter = logging.Formatter(
-        '%(asctime)s %(name)s:%(lineno)d [%(thread)d] %(levelname)s: %(message)s')
+        '%(asctime)s %(name)s:%(lineno)d \
+            [%(thread)d] %(levelname)s: %(message)s')
     logger.setLevel(logging.DEBUG)
 
     stream_handler = logging.StreamHandler()
@@ -34,7 +36,7 @@ if __name__ == '__main__':
     logger = init_logging()
     # Begin some logging tests
     # First log an Exception
-    logger.info("Started");
+    logger.info("Started")
     try:
         x = 612
         y = 0
@@ -44,7 +46,7 @@ if __name__ == '__main__':
         logger.debug(
             "Encountered {0} when trying to perform calculation.".format(ex))
 
-    logger.info("Ended");
+    logger.info("Ended")
 
     # Now just emit some custom messages.
     # logger.setLevel(logging.DEBUG)
