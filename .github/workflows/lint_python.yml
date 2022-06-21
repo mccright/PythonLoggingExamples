@@ -1,4 +1,8 @@
 # This is a basic workflow to help get any Python project started.
+# I started with a workflow file from: 
+# https://github.com/Orange-Cyberdefense/arsenal/blob/master/.github/workflows/lint_python.yml
+# Thank you Orange-Cyberdefense and cclauss / Christian Clauss for helping 
+# me get started.
 name: lint_python
 # Controls when the workflow will run
 on:
