@@ -49,6 +49,7 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 * This utility approach: [https://github.com/karldoenitz/PythonUtils/tree/master/logger](https://github.com/karldoenitz/PythonUtils/tree/master/logger)  
 * Minimal approach: [https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py](https://github.com/cherkavi/python-utilities/blob/master/logging/log-example.py)  
 * If all you want is quick, easy console logging, look at [https://github.com/apparebit/konsole](https://github.com/apparebit/konsole)  
+* "**structlog** makes logging in Python faster, less painful, and more powerful by adding structure to your log entries. It has been successfully used in production at every scale since 2013" [https://github.com/hynek/structlog](https://github.com/hynek/structlog)  
 
 ### Additional References  
 * "Python logging: do's and don'ts" [https://www.palkeo.com/en/blog/python-logging.html](https://www.palkeo.com/en/blog/python-logging.html)  
