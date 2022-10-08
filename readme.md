@@ -28,6 +28,7 @@ log("INFO", __file__, f"Using important_var: {important_var}")
     `from LogTestLoGuru import init_logging`  
     `logger = init_logging()`  
     `logger.info('info testing message')`  
+  * See "[A Complete Guide to Logging in Python with Loguru](https://betterstack.com/community/guides/logging/loguru/)" for an excellent overview and a detailed example describing how to integrate it into a typical web application.  
 * [requestsDebugging](https://github.com/mccright/PythonLoggingExamples/blob/main/requestsDebugging/devClient.py): A useful approach to *requests* debug logging especially valuable when attempting to deal with a poorly documented or otherwise opaque API.  This is well explained by Ben Hoey at [bhoey.com](https://bhoey.com/blog/better-debug-logging-for-the-python-requests-library/).  
 
 * The next...  
