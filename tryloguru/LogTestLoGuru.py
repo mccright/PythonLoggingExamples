@@ -8,6 +8,10 @@ import os
 # This is just a short experiment and reminder for later.
 # It is not meant to be a ready-to-use component.
 # See https://github.com/Delgan/loguru/ for many more use cases.
+# See "A Complete Guide to Logging in Python with Loguru" at 
+#   https://betterstack.com/community/guides/logging/loguru/ for an 
+#   excellent overview and a detailed example describing how to 
+#   integrate it into a typical web application.  
 # Also loguru recipes: 
 # https://loguru.readthedocs.io/en/stable/resources/recipes.html
 # and https://www.programcreek.com/python/example/118602/loguru.logger.configure
