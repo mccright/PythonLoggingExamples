@@ -6,6 +6,7 @@ These examples are just reminders/demonstrations to help me get started on any g
 > For a more detailed description of Python logging refer to [the official manual](https://docs.python.org/3.10/library/logging.html#module-logging).  There is a useful diagram outlining the flow of log event information in loggers and handlers at: [https://docs.python.org/3.10/howto/logging.html#logging-flow](https://docs.python.org/3.10/howto/logging.html#logging-flow).  And don't ignore the logging cookbook if you have the urge to do your own thing [https://docs.python.org/3/howto/logging-cookbook.html](https://docs.python.org/3/howto/logging-cookbook.html)  
 * Or a quick overview: "Logging in Python: A Developer’s Guide." By Bala Priya C., 2022-07-19 [https://blog.sentry.io/2022/07/19/logging-in-python-a-developers-guide](https://blog.sentry.io/2022/07/19/logging-in-python-a-developers-guide)  
 * Or for troubleshooting see: [https://github.com/brandon-rhodes/logging_tree](https://github.com/brandon-rhodes/logging_tree)  
+* or a short video lesson at: "[Python Logging: How to Write Logs Like a Pro!](https://www.youtube.com/watch?v=pxuXaaT1u3k)" with its supporting code at: [https://github.com/ArjanCodes/2023-logging](https://github.com/ArjanCodes/2023-logging)  
 
 ### Approaches  
 * The old *print* way:  
