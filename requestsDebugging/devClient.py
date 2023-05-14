@@ -42,7 +42,7 @@ logger.info("START HTTP GET Test")
 try:
 
     # Test HTTP GET
-    resp = requests.get(url)
+    resp = requests.get(url, timeout=5)
 
     if resp.status_code == 408:
         logger.exception(f"Request Timeout: {str(resp.status_code)}")   #  [RFC7231, Section 6.5.7]
