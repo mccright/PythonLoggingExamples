@@ -4,10 +4,11 @@ import socket
 import warnings
 import requests
 from requests.packages.urllib3.exceptions import ConnectionError
+from requests.packages.urllib3.exceptions import MaxRetryError
 from requests.packages.urllib3.exceptions import TimeoutError
 from requests.packages.urllib3.exceptions import SSLError as _SSLError
 from requests.packages.urllib3.exceptions import HTTPError as _HTTPError
-from requests.exceptions import ConnectionError, Timeout, SSLError
+from requests.exceptions import ConnectionError, RetryError, Timeout, SSLError
 
 
 # This is well explained by Ben Hoey at:
@@ -45,20 +46,17 @@ try:
     resp = requests.get(url, timeout=5)
 
     if resp.status_code == 408:
-        logger.exception(f"Request Timeout: {str(resp.status_code)}")   #  [RFC7231, Section 6.5.7]
-except OSError as msg:
-    logger.exception(f"OSError: Something bad happened.  Hostname correct?  Network OK? {msg}")
+        logger.exception(f"Request Timeout: {str(resp.status_code)}")
+# except OSError as msg:
+#     logger.exception(f"OSError: Something bad happened.  Hostname correct?  Network OK? {msg}")
 
-except socket.error as sockerr:
-    logger.exception(f"Something bad happened.  Hostname correct?  Network OK? {sockerr}")
+# except socket.error as sockerr:
+#     logger.exception(f"Something bad happened.  Hostname correct?  Network OK? {sockerr}")
 
 except ConnectionError as e:
     logger.exception(f"{e}")
 
-except MaxRetryError as e:
-    logger.exception(f"{e}")
-
-except ConnectionError as e:
+except RetryError as e:
     logger.exception(f"{e}")
 
 except (_SSLError, _HTTPError) as e:
