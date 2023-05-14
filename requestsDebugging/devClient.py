@@ -3,8 +3,8 @@ import logging
 import socket
 import warnings
 import requests
-from requests.packages.urllib3.exceptions import ConnectionError
-from requests.packages.urllib3.exceptions import MaxRetryError
+# from requests.packages.urllib3.exceptions import ConnectionError
+from requests.packages.urllib3.exceptions import RetryError
 from requests.packages.urllib3.exceptions import TimeoutError
 from requests.packages.urllib3.exceptions import SSLError as _SSLError
 from requests.packages.urllib3.exceptions import HTTPError as _HTTPError
@@ -54,6 +54,13 @@ try:
 #     logger.exception(f"Something bad happened.  Hostname correct?  Network OK? {sockerr}")
 
 except ConnectionError as e:
+    logger.exception(f"{e}")
+
+except Timeout as e:
+    '''Catching this error will catch both
+        :exc:`~requests.exceptions.ConnectTimeout` and
+        :exc:`~requests.exceptions.ReadTimeout` errors.
+    '''
     logger.exception(f"{e}")
 
 except RetryError as e:
