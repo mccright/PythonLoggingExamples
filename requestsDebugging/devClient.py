@@ -82,4 +82,4 @@ try:
 except Exception:
     logger.exception("The request failed.")
 """
-resp = requests.post(url, data='POST Testing data')
+resp = requests.post(url, data='POST Testing data', timeout=5)
