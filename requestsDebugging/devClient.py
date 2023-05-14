@@ -4,11 +4,11 @@ import socket
 import warnings
 import requests
 # from requests.packages.urllib3.exceptions import ConnectionError
-from requests.packages.urllib3.exceptions import RetryError
-from requests.packages.urllib3.exceptions import TimeoutError
-from requests.packages.urllib3.exceptions import SSLError as _SSLError
-from requests.packages.urllib3.exceptions import HTTPError as _HTTPError
-from requests.exceptions import ConnectionError, RetryError, Timeout, SSLError
+# from requests.packages.urllib3.exceptions import RetryError
+# from requests.packages.urllib3.exceptions import TimeoutError
+# from requests.packages.urllib3.exceptions import SSLError as _SSLError
+# from requests.packages.urllib3.exceptions import HTTPError as _HTTPError
+from requests.exceptions import ConnectionError, RetryError, Timeout, SSLError, HTTPError
 
 
 # This is well explained by Ben Hoey at:
@@ -66,8 +66,8 @@ except Timeout as e:
 except RetryError as e:
     logger.exception(f"{e}")
 
-except (_SSLError, _HTTPError) as e:
-    if isinstance(e, _SSLError):
+except (SSLError, HTTPError) as e:
+    if isinstance(e, SSLError):
         logger.exception(f"{e}")
     elif isinstance(e, TimeoutError):
         logger.exception(f"{e}")
