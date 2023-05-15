@@ -47,6 +47,7 @@ try:
 
     if resp.status_code == 408:
         logger.exception(f"Request Timeout: {str(resp.status_code)}")
+# Note: Removed the two exceptions below because they were too broad for my use cases.
 # except OSError as msg:
 #     logger.exception(f"OSError: Something bad happened.  Hostname correct?  Network OK? {msg}")
 
@@ -72,10 +73,10 @@ except (SSLError, HTTPError) as e:
     elif isinstance(e, TimeoutError):
         logger.exception(f"{e}")
     else:
-        logger.exception(f"Request timed out. Not _SSLError or TimeoutError: {e}")
+        logger.exception(f"Request timed out. Not SSLError or TimeoutError: {e}")
         
 except Exception as e:
-    logger.exception(f"The request failed: {e}")
+    logger.exception(f"The request failed - why?: {e}")
 
 logger.info("START HTTP POST Test")
 # Test HTTP POST
