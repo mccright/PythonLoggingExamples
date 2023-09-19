@@ -62,3 +62,4 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 * "How to Pickle and Unpickle Objects in Python." [https://stackabuse.com/how-to-pickle-and-unpickle-objects-in-python/](https://stackabuse.com/how-to-pickle-and-unpickle-objects-in-python/)  
 * another example: https://github.com/timreibe/vaccipy/blob/master/tools/clog.py  
 * Example github search for "log.py" files:  ```path:/(^|\/)log\.py$/  language:Python```  
+* Create another example -- using a configuration file like the example at [https://github.com/PublicDataLab/DataPortalExplorer/blob/master/logging.ini](https://github.com/PublicDataLab/DataPortalExplorer/blob/master/logging.ini)  
