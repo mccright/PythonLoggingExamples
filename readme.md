@@ -1,5 +1,6 @@
 ## My Python Logging Reminders  
 [![](https://tokei.rs/b1/github/mccright/PythonLoggingExamples)](https://github.com/mccright/PythonLoggingExamples)  
+logpai/logparser
 
 These examples are just reminders/demonstrations to help me get started on any given python script.  
 
@@ -44,7 +45,8 @@ That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.
 See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Application-Logging.md](https://github.com/mccright/rand-notes/blob/master/Application-Logging.md)  
 
 ### Explore later
-
+* Try logparser from  [LOGPAI/Log Analytics Powered by AI](https://github.com/logpai):  [https://github.com/logpai/logparser](https://github.com/logpai/logparser)  
+>Logparser provides a machine learning toolkit and benchmarks for automated log parsing, which is a crucial step for structured log analytics. By applying logparser, users can automatically extract event templates from unstructured logs and convert raw log messages into a sequence of structured events. The process of log parsing is also known as message template extraction, log key extraction, or log message clustering in the literature.  
 * Try 'minilog' a minimalistic logging wrapper for Python.  
 [https://github.com/jacebrowning/minilog](https://github.com/jacebrowning/minilog)  
 * Try 'Python Quick Logging | QLogging', colored Python logging based on Python the logging package.  
