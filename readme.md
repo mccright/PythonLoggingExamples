@@ -57,6 +57,7 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 * "**structlog** makes logging in Python faster, less painful, and more powerful by adding structure to your log entries. It has been successfully used in production at every scale since 2013" [https://github.com/hynek/structlog](https://github.com/hynek/structlog)  
 
 ### Additional References  
+* "Assisted Log Enabler for AWS" - Find resources that are not logging, and turn them on. Assisted Log Enabler for AWS is for customers who do not have logging turned on for various services, and lack knowledge of best practices and/or how to turn them on. [https://github.com/awslabs/assisted-log-enabler-for-aws](https://github.com/awslabs/assisted-log-enabler-for-aws)  
 * "Python logging: do's and don'ts" [https://www.palkeo.com/en/blog/python-logging.html](https://www.palkeo.com/en/blog/python-logging.html)  
 * "Logging in Python like a PRO" [https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/](https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/)  
 * "The Ins and Outs of Logging in Python, Part 1" [https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html#](https://monadical.com/posts/ins-and-outs-of-logging-in-python-part-one.html#)  
