@@ -67,3 +67,4 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 * another example: https://github.com/timreibe/vaccipy/blob/master/tools/clog.py  
 * Example github search for "log.py" files:  ```path:/(^|\/)log\.py$/  language:Python```  
 * Create another example -- using a configuration file like the example at [https://github.com/PublicDataLab/DataPortalExplorer/blob/master/logging.ini](https://github.com/PublicDataLab/DataPortalExplorer/blob/master/logging.ini)  
+* "Python Logging - The Log Levels." By Mike Driscoll. Jun 12, 2024 [https://www.pythonpapers.com/p/python-logging-the-log-levels](https://www.pythonpapers.com/p/python-logging-the-log-levels)  
