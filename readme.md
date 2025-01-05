@@ -45,7 +45,8 @@ That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.
 ### What Should You Log?   
 See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Application-Logging.md](https://github.com/mccright/rand-notes/blob/master/Application-Logging.md)  
 
-### Explore later
+### Explore later  
+* Explore ```SysLogHandler```: https://docs.python.org/3/library/logging.handlers.html#sysloghandler - The SysLogHandler class, located in the logging.handlers module, supports sending logging messages to a remote or local Unix syslog.  
 * Try logparser from  [LOGPAI/Log Analytics Powered by AI](https://github.com/logpai):  [https://github.com/logpai/logparser](https://github.com/logpai/logparser)  
 >Logparser provides a machine learning toolkit and benchmarks for automated log parsing, which is a crucial step for structured log analytics. By applying logparser, users can automatically extract event templates from unstructured logs and convert raw log messages into a sequence of structured events. The process of log parsing is also known as message template extraction, log key extraction, or log message clustering in the literature.  
 * Try 'minilog' a minimalistic logging wrapper for Python.  
@@ -58,6 +59,7 @@ See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Applicati
 * "**structlog** makes logging in Python faster, less painful, and more powerful by adding structure to your log entries. It has been successfully used in production at every scale since 2013" [https://github.com/hynek/structlog](https://github.com/hynek/structlog)  
 
 ### Additional References  
+* *From SolarWinds® [Loggly](https://www.loggly.com)®* Python Logging resources: [Python Logging Libraries and Frameworks](https://www.loggly.com/ultimate-guide/python-logging-libraries-frameworks/) and [Python Logging Basics](https://www.loggly.com/ultimate-guide/python-logging-basics/)  
 * "Assisted Log Enabler for AWS" - Find resources that are not logging, and turn them on. Assisted Log Enabler for AWS is for customers who do not have logging turned on for various services, and lack knowledge of best practices and/or how to turn them on. [https://github.com/awslabs/assisted-log-enabler-for-aws](https://github.com/awslabs/assisted-log-enabler-for-aws)  
 * "Python logging: do's and don'ts" [https://www.palkeo.com/en/blog/python-logging.html](https://www.palkeo.com/en/blog/python-logging.html)  
 * "Logging in Python like a PRO" [https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/](https://blog.guilatrova.dev/how-to-log-in-python-like-a-pro/)  
