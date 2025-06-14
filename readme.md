@@ -33,6 +33,7 @@ log("INFO", __file__, f"Using important_var: {important_var}")
     `logger.info('info testing message')`  
   * See "[A Complete Guide to Logging in Python with Loguru](https://betterstack.com/community/guides/logging/loguru/)" for an excellent overview and a detailed example describing how to integrate it into a typical web application.  
   * or see "[An Intro to Logging with Loguru](https://www.pythonpapers.com/p/an-intro-to-logging-with-loguru)" by Mike Driscoll for a useful quick summary with code examples.  
+  * There is an interesting project to add encryption to loguru [https://github.com/CDU-Ge/loguru_crypt/blob/main/README.md](https://github.com/CDU-Ge/loguru_crypt/blob/main/README.md)  
 * [requestsDebugging](https://github.com/mccright/PythonLoggingExamples/blob/main/requestsDebugging/devClient.py): A useful approach to *requests* debug logging especially valuable when attempting to deal with a poorly documented or otherwise opaque API.  This is well explained by Ben Hoey at [bhoey.com](https://bhoey.com/blog/better-debug-logging-for-the-python-requests-library/).  
 
 * The next...  
@@ -46,6 +47,7 @@ That said,  `tryloguru/LogTestLoGuru.py` requires `pip3 install loguru --user`.
 See some ideas at: [https://github.com/mccright/rand-notes/blob/master/Application-Logging.md](https://github.com/mccright/rand-notes/blob/master/Application-Logging.md)  
 
 ### Explore later  
+* Try ```ulogger```: https://github.com/meldaaktepe/ulogger -- A custom Python logging module that supports colored console logs and file-based logging, with support for custom log levels like SUCCESS, FAIL, and HEADER.  
 * Explore ```SysLogHandler```: https://docs.python.org/3/library/logging.handlers.html#sysloghandler - The SysLogHandler class, located in the logging.handlers module, supports sending logging messages to a remote or local Unix syslog.  
 * Try logparser from  [LOGPAI/Log Analytics Powered by AI](https://github.com/logpai):  [https://github.com/logpai/logparser](https://github.com/logpai/logparser)  
 >Logparser provides a machine learning toolkit and benchmarks for automated log parsing, which is a crucial step for structured log analytics. By applying logparser, users can automatically extract event templates from unstructured logs and convert raw log messages into a sequence of structured events. The process of log parsing is also known as message template extraction, log key extraction, or log message clustering in the literature.  
