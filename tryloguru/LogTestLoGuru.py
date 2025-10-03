@@ -33,7 +33,8 @@ import os
 
 def init_logging():
     # UTC so global logs sync.
-    dt = datetime.datetime.utcnow()
+    # deprecated -> dt = datetime.datetime.utcnow()
+    dt = datetime.datetime.now(datetime.UTC)
     scriptName = os.path.basename(__file__)
     print(scriptName)
     # If needed, put the log file in a log directory using: 
